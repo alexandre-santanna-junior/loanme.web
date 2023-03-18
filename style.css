@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{ background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+.logo{
+    font-size: 39px;
+    color: #FD0064;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.botao1{
+    text-decoration: none;
+    color: #334367;
+}
+.botao2{
+    text-decoration: none;
+    color: #334367;
+}
+.botao3{
+    text-decoration: none;
+    color: #334367;
+}
+.simular1{
+    text-decoration: none;
+    color: white;
+    background-color: #FD0064;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+} 
+.pag1{
+    background-image: linear-gradient( #f3317f, #FD0065 );
+    color: white;
+    
+}
+p{
+    color: #FD0064;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 185px;
+    gap: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+}
+.aside2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 130px;
+}
+.principal{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.principal-2{
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+.simular1:hover{
+    background-color:gold;
+    color: #334367;
+    padding: 16px 38px;
+    border-radius: 20px;
+
+}
+.simular2:hover{
+    background-color: gold;
+    color: #334367;
+    padding: 16px 38px;
+    border-radius: 20px;
+}
+.simular2{
+    text-decoration: none;
+    color: #FD0064;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+img{
+    padding-left: 100px;
+}
+.main2{
+    background-color: aliceblue;
+    color: #334367;
+    padding: 50px 90px;
+    
+} 
+.p2{ margin-left: 550px;
+    color: #334367;
+    font-weight:600;
+    
+}
+.body2{
+    display: flex;
+    background-image: linear-gradient( #f3317f , #FD0065);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #334367;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-width: 100wh;
+    min-height: 100hw;
+    box-sizing: border-box;
+}
+.pag2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: white;
+    margin: 180px ;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+.logo2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.secundario{
+    font-size: 19px;
+    padding-bottom: 24px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#valor{
+    padding: 7px 10px;
+}
+#tempo{
+    padding: 7px 10px;
+}
+#salario{
+    padding: 7px 10px;
+}
+.simular:hover{
+    cursor: pointer;
+}
+.simular{
+    margin-top: 5px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.resposta{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.resposta1{
+    color: black;
+    font-weight: bolder;
+
+}
+.resposta2{
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.porquinho{
+    margin-top: 230px;
+    align-items: center;
+    text-align: center;
+}
+.home{ 
+    margin-right: 100px;
+    width: 150px;
+    right: 150px;
+}
+footer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+.rodape{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.insta{
+    width: 20px;
+    right: 20px;
+}
+.whats{
+    width: 25px;
+    right: 25px;
+}
+.desenvolvido{
+    color: black;
+}
+body::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 0;
+    right: 0;
+}
